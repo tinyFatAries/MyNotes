@@ -1,10 +1,10 @@
 ### MacOs下Vscode的vim模式无法持续按键
 ======================================
 在终端里面输入以下命令关闭Mac的该功能：
-···
+```
 # Disable Mac's "Press&Hold" feature
 $ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-···
+```
 如果要恢复的话：
 ```
 # Re-enable this feature
